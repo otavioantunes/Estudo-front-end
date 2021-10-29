@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício Formulário</title>
+    </head>
+    <body>
+        <form name="cadastro" method="get" action="ex_form_part1.html">
+            <table border="3" bgcolor="#C0C0C0">
+                <tr>
+                    <td colspan="4" align="center">Preencha o Formulário</td>
+                </tr>
+                <tr>
+                    <td>Nome</td><td colspan="3"><input type="text" name="nome" size="49px"></td>
+                </tr>
+                <tr>
+                    <td>Endereço</td><td colspan="3"><input type="text" name="endereco" size="49px"></td>
+                </tr>
+                <tr>
+                    <td>CEP</td><td><input type="text" name="cep" size="17px"></td><td>Telefone</td><td><input type="text" name="tel" size="17px"></td>
+                </tr>
+                <tr>
+                    <td>Cidade</td><td><input type="text" name="cidade" size="17px"></td><td>Estado</td><td>
+                        <select name="estado" size="1">
+                            <option>AC</option>
+                            <option>AM</option>
+                            <option>ES</option>
+                            <option>DF</option>
+                            <option>PR</option>
+                            <option>SP</option>
+                            <option>SC</option>
+                            <option>MT</option>
+                            <option>RJ</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Meio de Transporte</td>
+                    <td colspan="2">
+                        <select name="mtransp" size="1">
+                            <optgroup label="terrestre">
+                                <option>Ônibus</option>
+                                <option>Carro</option>
+                                <option>Caminhão</option>
+                                <option>Motocicleta</option>
+                                <option>Bicicleta</option>
+                                <option>Skate</option>
+                                <option>Veículo de Tração Animal</option>
+                            </optgroup>
+                            <optgroup label="trilhos">
+                                <option>Trem</option>
+                                <option>Metrô</option>
+                                <option>VLT</option>
+                                <option>Bondinho</option>
+                            </optgroup>
+                            <optgroup label="marítimo">
+                                <option>Navio</option>
+                                <option>Canoa</option>
+                                <option>Barco</option>
+                                <option>JetSki</option>
+                                <option>Bote</option>
+                            </optgroup>
+                            <optgroup label="aéreo">
+                                <option>Avião</option>
+                                <option>Helicoptero</option>
+                                <option>Drone</option>
+                            </optgroup>   
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center"><input type="submit" value="Enviar Dados"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
